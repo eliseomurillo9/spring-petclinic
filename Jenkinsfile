@@ -1,7 +1,7 @@
 pipeline {
-  agent any
+  agent none
   stages {
-    stage('error') {
+    stage('') {
       steps {
         sh './mvnw package'
       }
